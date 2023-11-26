@@ -1,0 +1,38 @@
+This is just some random showcase of my MYSQL work, 
+This is a query that my lecturer wanted my class to find, i found it 
+
+(
+        CREATE VIEW A AS
+        SELECT 
+    TH.PARK_CODE, 
+    TH.PARK_NAME, 
+        LINE_NO,
+        
+        sum(LINE_PRICE)    AS  TOTAL,
+        avg(LINE_PRICE)    AS  AVERAGE
+  FROM 
+    THEMEPARK   AS  TH, 
+        TICKET    AS  TI,
+        SALES_LINE   AS  SL
+  WHERE 
+    TH.PARK_CODE = TI.PARK_CODE 
+        AND
+        TI.TICKET_NO = SL.TICKET_NO
+  GROUP BY 
+    PARK_CODE, LINE_NO
+        
+--         OHHHHHHHHHHHHHH 
+--         GROUP BY IS EXECUTED FIRST, THEN THE WHERE CONDITIONS 
+    SELECT * FROM SALES_LINE
+        
+        SELECT 
+      PARK_NAME,
+            MIN(TOTAL),
+            MAX(TOTAL),
+            AVERAGE
+    FROM 
+      A
+    GROUP BY
+      PARK_NAME
+    
+        )

@@ -1,5 +1,11 @@
 # finally finished on 3:19 pm 26/12/2023
 
+# On a real note, counter.py would've not been possible without a purpose, even though it's useless because Monkeytype already have time typing feature,
+
+# But I still learned important concept like multi threading programming
+
+# I gotta write this in the py file
+
 from ast import If, With
 from io import open_code
 from posixpath import splitext

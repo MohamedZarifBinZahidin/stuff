@@ -12,11 +12,11 @@ As for my calendar, it was pretty minimal, barebones, and unpolished.
 In the end, i used fullcalendar js plugin.
 
 # Leetcode/Short passion project
-python stuff includes some leetcode and my passion project, 
-counter.py
-I've applied what i know about of asynchronous/multithreaded programming
-This program records the time spent typing, 
-it uses 3 threads of execution, concurrently executing infinite loops, 
-1st is for periodically logging into txt file
-2nd is for recording duration of typing sessions, sessions are a few seconds apart
-3rd is for periodic timer for seperating typing sessions, so idle time is not recorded
+python stuff includes some leetcode and my passion project, <br> 
+counter.py <br> 
+I've applied what i know about of asynchronous/multithreaded programming <br> 
+This program records the time spent typing, <br> 
+it uses 3 threads of execution, concurrently executing infinite loops,<br> 
+1st is for periodically logging into txt file <br> 
+2nd is for recording duration of typing sessions, sessions are a few seconds apart  <br> 
+3rd is for periodic timer for seperating typing sessions, so idle time is not recorded <br> 

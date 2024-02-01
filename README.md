@@ -1,6 +1,9 @@
 # stuff
 stuff i learned in my time at UPM &amp; internship at Nutworkz Sdn Bhd
 
+# Disclaimer
+my laptop broke sometime during internship, so almost all of my uni projects isn't in this repository
+
 # CV 
 My CV is https://www.canva.com/design/DAF7kVAxpvs/XoZGZG8nObFvWdY2FXJyGg/edit?utm_content=DAF7kVAxpvs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 

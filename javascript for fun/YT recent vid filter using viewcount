@@ -1,0 +1,38 @@
+window.clearInterval(scroll); // This stops a setInterval function named 'scroll' if it is running.
+
+console.clear(); // This clears the console of any previous messages.
+
+urls = $$('a'); // This uses a shorthand for document.querySelectorAll('a') to select all anchor (<a>) elements on the page and assigns them to the variable 'urls'.
+
+urls.forEach(function(v,i,a){
+    // This iterates over each element in the 'urls' array.
+    if (v.id==""video-title-link"" && v.href){
+        // This checks if the current element (v) has an id of ""video-title-link"" and a non-empty href attribute.
+        
+        // Extract the aria-label attribute if it exists
+        let ariaLabel = v.getAttribute('aria-label') || '';
+
+        // Extract the number of views from the aria-label
+        let viewsMatch = ariaLabel.match(/([\d,]+) views/);
+        if (!viewsMatch) return; // Skip if no views are found
+        
+        // Convert the views to a number
+        let views = parseInt(viewsMatch[1].replace(/,/g, ''));
+        
+        // Filter out videos with less than 100,000 views
+        if (views < 90000) return;
+
+        // Extract the upload date from the aria-label (assuming it has a format like ""x days ago"" or ""x weeks ago"")
+        let uploadDateMatch = ariaLabel.match(/(\d+ (days?|weeks?) ago)/);
+        let uploadDate = uploadDateMatch ? uploadDateMatch[0] : 'N/A';
+
+        console.log(
+            '\t' + new Date().toLocaleDateString() + // Logs the current date in a local date string format.
+            '\t' + v.title + // Logs the title attribute of the anchor element.
+            '\t' + v.href + // Logs the href attribute (URL) of the anchor element.
+            '\t' + views + ' views' + // Logs the number of views.
+            '\t' + uploadDate + // Logs the upload date.
+            '\t'
+        );
+    }
+});

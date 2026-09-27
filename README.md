@@ -11,6 +11,10 @@ My CV is https://www.canva.com/design/DAF7kVAxpvs/XoZGZG8nObFvWdY2FXJyGg/edit?ut
 As for my calendar, it was pretty minimal, barebones, and unpolished.
 In the end, i used fullcalendar js plugin.
 
+
+#CAD model
+https://app.sketchup.com/share/tc/asia/YGkfFGxMwxw?stoken=je2ePO0TqJDacpIeGtPXOXIAJSD32Nh9SCItaiuDFnJSR-wHrvCmJJLsNgxia-9h&source=webhttps://app.sketchup.com/share/tc/asia/YGkfFGxMwxw?stoken=je2ePO0TqJDacpIeGtPXOXIAJSD32Nh9SCItaiuDFnJSR-wHrvCmJJLsNgxia-9h&source=web 
+
 # Leetcode/Short passion project
 python stuff includes some leetcode and my passion project, <br> 
 counter.py <br> 

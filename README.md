@@ -4,6 +4,15 @@ stuff i learned in my time at UPM &amp; internship at Nutworkz Sdn Bhd
 # Disclaimer
 my laptop broke sometime during internship, so almost all of my uni projects isn't in this repository
 
+# Books I've read
+Zero to One - Peter Thiel 
+How To Avoid a Climate Disaster - Bill Gates 
+Steve Jobs - Walter Isaacson 
+Human Compatible - Stuart Russell 
+Career Guide For The Best 40-Year Career - 80,000 hours
+Thinking, Fast & Slow - Daniel Kahneman  
+How to make friends & inﬂuence people - Dale Carnegie
+
 # CV 
 My CV is https://www.canva.com/design/DAF7kVAxpvs/XoZGZG8nObFvWdY2FXJyGg/edit?utm_content=DAF7kVAxpvs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
